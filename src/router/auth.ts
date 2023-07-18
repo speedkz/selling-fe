@@ -24,6 +24,11 @@ const authRoutes: Readonly<RouteRecordRaw[]> = [
         name: authRoutesName.createAccount,
         path: 'create-account',
         component: () => import('@/views/auth/CreateAccount.vue')
+      },
+      {
+        name: 'test',
+        path: 'test',
+        component: () => import('@/views/auth/TestSignUp.vue')
       }
     ]
   }
